@@ -37,10 +37,6 @@ dist/
 .cache/
 
 # Ignore model and data files (if not tracked)
-*.model
-*.pkl
-*.csv
-*.json
 
 # Ignore static files (if not tracked)
 /static/

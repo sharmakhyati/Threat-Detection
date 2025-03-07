@@ -1,10 +1,4 @@
-import requests
-
-# Define the FastAPI endpoint URL
-url = "https://3.16.81.121:8000/predict"
-
-# Sample input data in JSON format
-sample_data = {
+{
     "id": 1,
     "dur": 0.000011,
     "proto": "udp",
@@ -49,12 +43,3 @@ sample_data = {
     "ct_srv_dst": 2,
     "is_sm_ips_ports": 0
 }
-
-# Send a POST request to the FastAPI server
-response = requests.post(url, json=sample_data)
-
-# Check the response status and print the prediction
-if response.status_code == 200:
-    print("Prediction Response:", response.json())
-else:
-    print(f"Failed to get prediction. Status code: {response.status_code}")
