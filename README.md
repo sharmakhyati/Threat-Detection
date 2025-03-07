@@ -1,4 +1,4 @@
-# FastAPI XGBoost Inference API
+# Threat Detection API
 
 This project provides a RESTful API using FastAPI to serve predictions from a pre-trained XGBoost classification model. The API accepts input data in JSON format and returns predicted classes for network attack categories.
 
